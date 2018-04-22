@@ -105,3 +105,109 @@ df2 <- bind_rows(records.2)
 #Create a CSV of the data frame
 write_csv(df2, "records-2.csv")
 ```
+Now, we will open both our records-1.csv and records-2.csv in Excel and combine the two files, thus creating one file that contains the first and last names, ID, h index, i10 index, and citation count for each of the Economists. In Excel we will also clean the data up a bit. Some of the records were incomplete or did not exist anymore, and so R put zeros in each the h index, i10 index, and citations columns. We will delete these columns and then re-alphabatize the records by last name.
+
+We will then also have to add all of the letters together in Excel, as each letter had to be gathered individually. Once done we have a list of all Economists data which I named 'records-final.csv'.
+
+Next, we will gather the data for Economists on Twitter, which are listed on a seperate page on RePEc's webiste.
+
+The first two loops are the same as the previous two, except now we also gather the username for each Twitter user.
+```
+#Scrape the URL's of the Economists with Twitter accounts
+names.twitter <- webpage.3 %>% html_nodes("td a") %>% html_attr("href")
+  
+#Paste the Economist's URLs into the equation to go to their pages
+temp.webpage.twitter <- paste0(webpage.1, names.twitter)
+  
+#Create a vector to collect information
+records.twitter <- vector("list", length(temp.webpage.twitter))
+  
+#Create a loop to collect the first name, last name, and twitter handle of every Economist with a Twitter
+for(i in seq_along(temp.webpage.twitter)){
+  tryCatch(
+    {
+      first.name <- read_html(temp.webpage.twitter[i]) %>% html_nodes("tr:nth-child(1) td+ td") %>% html_text(.)
+      last.name  <- read_html(temp.webpage.twitter[i]) %>% html_nodes("tr:nth-child(3) td+ td") %>% html_text(.)
+      ID         <- read_html(temp.webpage.twitter[i]) %>% html_nodes("tr:nth-child(5) td+ td") %>% html_text(.)
+      twitter    <- read_html(temp.webpage.twitter[i]) %>% html_nodes("tr:nth-child(10) td+ td") %>% html_text(.)
+    },
+    error = function(e) print("NA")
+  )
+  records.twitter[[i]] <- data_frame(first.name = first.name, last.name = last.name, ID = ID, twitter = twitter)
+}
+  
+#Bind the records together
+df.twitter <- bind_rows(records.twitter)
+  
+#Create a CSV with the Twitter Economist's info
+write_csv(df.twitter, "records-twitter.csv")
+```
+Again, for this second loop you will have to go through each letter individually as the webpage for CitEc changes for each letter. In this example we start with 'a'.
+```
+#Read in the CSV file of Twitter Users - you will have to do this for each letter, again we are starting with 'a' 
+twitter <- read.csv("twitter-a.csv")
+  
+#Paste the Twitter User names into the webpage and then '.hmtl'
+temp.webpage.twitter2 <- paste0(webpage.2, twitter$ID, '.html')
+  
+#Create a vector to store the citation information
+records.twitter2 <- vector("list", length = length(temp.webpage.twitter2))
+  
+#Create a loop to collect the citation information
+for (i in seq_along(temp.webpage.twitter2)){
+  tryCatch(
+    {
+      h.index   <- read_html(temp.webpage.twitter2[i]) %>% html_nodes("#Ahindex:nth-child(1) .indData") %>% html_text(.)
+      i10.index <- read_html(temp.webpage.twitter2[i]) %>% html_nodes("#Ahindex:nth-child(2) .indData") %>% html_text(.)
+      citations <- read_html(temp.webpage.twitter2[i]) %>% html_nodes("#Ahindex~ #Ahindex+ #Ahindex .indData") %>% html_text(.)
+    },
+    error = function(e) print("NA")
+  )
+  records.twitter2[[i]] <- data_frame(h.index = h.index, i10.index = i10.index, citations = citations)
+}
+  
+#Bind the rows
+df.twitter2 <- bind_rows(records.twitter2)
+  
+#Create the CSV file of the Twitter User's citations
+write_csv(df.twitter2, "twitter-a2.csv")
+```
+Again, like the non-Twitter Economists we take these records into Excel to combine the columns and rows of different letters, and to deleted any incomplete records. I ended up saving the Economists of Twitters info as 'records-twitter.csv'.
+
+Lastly, we will gather the twitter data for these users. You will read in the csv file we just created for all the Economists on Twitter and use a loop to collect the number of tweets they have, the number of followers, and the number of accounts they are following.
+```
+#Read in all the Economists on Twitter
+twitter <- read_csv("records-twitter.csv")
+
+#Select the twitter usernames for each economist
+username <- (twitter$twitter)
+
+#Each username has a space in front of it, trim that so we can insert it into the Twitter URL
+username <- trimws(username, "l")
+
+#Paste the Twitter usernames with the webpage for Twitter
+temp.webpage.twitter3 <- paste0(webpage.4, username)
+  
+#Create a vector to collect the Twitter data
+records.twitter3 <- vector("list", length = length(temp.webpage.twitter3))
+  
+#Create a loop to collect the Twitter data - number of tweets, followers, and following
+for (i in seq_along(temp.webpage.twitter3)){
+  tryCatch(
+    {
+      tweets    <- read_html(temp.webpage.twitter3[i]) %>% html_nodes(".is-active .ProfileNav-value") %>% html_text(.)
+      following <- read_html(temp.webpage.twitter3[i]) %>% html_nodes(".ProfileNav-item--following .ProfileNav-value") %>% html_text(.)
+      followers <- read_html(temp.webpage.twitter3[i]) %>% html_nodes(".ProfileNav-item--followers .ProfileNav-value") %>% html_text(.)
+    },
+    error = function(e) print("NA")
+  )
+  records.twitter3[[i]] <- data_frame(tweets = tweets, following = following, followers = followers)
+}
+  
+#Bind together the Twitter data
+df.twitter3 <- bind_rows(records.twitter3)
+  
+#Create a CSV
+write_csv(df.twitter3, "records-twitter3.csv")
+```
+You will then open this file in Excel and add these columns to the rest of the records in 'records-twitter.csv' and you have done it! You now have CSV files for both the Economists on Twitter and those who are not!
