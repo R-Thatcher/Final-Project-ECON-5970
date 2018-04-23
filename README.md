@@ -192,10 +192,11 @@ temp.webpage.twitter3 <- paste0(webpage.4, username)
 records.twitter3 <- vector("list", length = length(temp.webpage.twitter3))
   
 #Create a loop to collect the Twitter data - number of tweets, followers, and following
+#For some reason the tweets come with a '\n' at the end of them so you will need to trim that
 for (i in seq_along(temp.webpage.twitter3)){
   tryCatch(
     {
-      tweets    <- read_html(temp.webpage.twitter3[i]) %>% html_nodes(".is-active .ProfileNav-value") %>% html_text(.)
+      tweets    <- read_html(temp.webpage.twitter3[i]) %>% html_nodes(".is-active .ProfileNav-value") %>% html_text(trim = TRUE)
       following <- read_html(temp.webpage.twitter3[i]) %>% html_nodes(".ProfileNav-item--following .ProfileNav-value") %>% html_text(.)
       followers <- read_html(temp.webpage.twitter3[i]) %>% html_nodes(".ProfileNav-item--followers .ProfileNav-value") %>% html_text(.)
     },
@@ -210,4 +211,6 @@ df.twitter3 <- bind_rows(records.twitter3)
 #Create a CSV
 write_csv(df.twitter3, "records-twitter3.csv")
 ```
-You will then open this file in Excel and add these columns to the rest of the records in 'records-twitter.csv' and you have done it! You now have CSV files for both the Economists on Twitter and those who are not!
+You will then open this file in Excel and add these columns to the rest of the records in 'records-twitter.csv'. After that you will also need to do a select all and find all of the '.k's and replace them with zeros. For example, if a person has 12,000 followers Twitter reported it as 12.k, and by doing a replace all in Excel you can turn 12.k into 12,000.
+
+And you have done it! You now have CSV files for both the Economists on Twitter and those who are not!
