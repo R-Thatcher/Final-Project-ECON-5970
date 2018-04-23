@@ -1,4 +1,4 @@
-first.name,last.name,ID,twitter,h.index,i10.index,citations,tweets,following,followers
+first.name,last.name,ID,username,h.index,i10.index,citations,tweets,following,followers
 Jorge,Abad,pab367, @jrg_abad ,1,1,19,58,489,62
 Ahmed,Abd Ellah,pab127, @profahmhamed ,1,0,8,256,"1,269",163
 Kim,Abildgren,pab325, @kim_abildgren ,3,0,19,19,0,41
@@ -20,8 +20,8 @@ Mouawiya,Al Awad,pal278, @mouawiya ,3,2,78,11,7,2
 Abdullah,Al-Bahrani,pal867, @teach_econ ,2,0,11,"8,635","1,472","1,927"
 Lilia,Aleksanyan,pal649, @laleksanyan ,2,0,9,268,746,416
 Mabid,Al-Jarhi,pal663, @maljarhi ,2,0,13,"52,700","9,088","8,360"
-Guillaume,All��gre,pal370, @g_allegre ,4,0,31,"4,868","1,435","3,748"
-C��sar,Alonso-Borrego,pal9, @alonsobcesar ,8,8,575,"5,430",555,360
+Guillaume,AllíÂgre,pal370, @g_allegre ,4,0,31,"4,868","1,435","3,748"
+Cí©sar,Alonso-Borrego,pal9, @alonsobcesar ,8,8,575,"5,430",555,360
 Adrian,Alter,pal673, @romanianromance ,4,3,214,639,"9,754","12,300"
 Guillermo,Alves,pal497, @guillermo_alves ,3,0,22,"11,900","1,215","1,032"
 Lykke,Andersen,pan43, @lykkeeandersen ,8,5,245,639,196,348
@@ -36,9 +36,9 @@ Sebastian,Aparicio,pap38, @sebasaparicio15 ,2,1,18,"3,605",182,201
 Edson,Araujo,par133, @araujoec ,1,0,2,59,86,62
 Eva,Arceo-Gomez,par290, @evaoarceo ,5,4,112,"3,195",466,900
 Rodrigo,Arim,par339, @rodrigoarim1 ,5,0,50,635,824,"3,035"
-Bj�?rn,Arnarson,par416, @bjorci ,1,0,4,184,535,115
+Bjí?rn,Arnarson,par416, @bjorci ,1,0,4,184,535,115
 Leticia,Arroyo Abad,par370, @larroyoabad ,3,1,32,"3,486",626,437
-Benito,Arru��ada,par20, @benitoarrunada ,7,5,203,"32,400",733,"7,294"
+Benito,Arruí±ada,par20, @benitoarrunada ,7,5,203,"32,400",733,"7,294"
 Nuran,Arslaner,par337, @noorarx ,2,0,7,6,495,81
 Ferhat,Arslaner,par395, @farslaner ,3,0,16,390,888,165
 Julio,Arteaga,par292, @jc_artegar ,1,0,4,"4,120",72,346
@@ -47,7 +47,7 @@ Susan,Athey,pat6, @susan_athey ,24,33,2151,346,401,"10,300"
 M. Aykut,Attar,pat34, @maattar ,1,0,2,"5,412","2,976","1,352"
 Titus,Awokuse,paw5, @titusawokuse ,10,11,330,275,304,287
 N. Emrah,Aydinonat,pay1, @aydinonat ,2,0,10,"3,510",581,"2,560"
-Sara,Ayll�?n,pay16, @ayllonsara ,3,0,24,"1,017",119,227
+Sara,Ayllí?n,pay16, @ayllonsara ,3,0,24,"1,017",119,227
 Marina,Azzimonti,paz11, @mazzimon77 ,11,12,371,80,65,149
 Ruediger,Bachmann,pba751, @bachmannrudi ,12,13,771,"6,468",67,740
 Lance,Bachmeier,pba1435, @lancebachmeier ,7,7,368,"2,976",510,556
@@ -55,7 +55,7 @@ David,Backus,pba242, @NYUSternEcon ,28,39,4595,249,10,244
 Stijn,Baert,pba1112, @stijn_baert ,6,3,149,"2,136",423,"3,025"
 Alberto,Bagnai,pba221, @albertobagnai ,6,3,89,"165,000",562,"75,600"
 Dany,Bahar,pba1149, @dany_bahar ,3,2,64,"5,035",890,"15,300"
-Ra̼l,Bajo-Buenestado,pba571, @raulbajob ,1,0,2,"1,928",192,199
+RaÌ¼l,Bajo-Buenestado,pba571, @raulbajob ,1,0,2,"1,928",192,199
 Richard,Baldwin,pba124, @baldwinre ,44,76,6422,"22,900","1,311","16,200"
 Arsenio,Balisacan,pba300, @ambalisacan ,9,9,344,743,184,526
 Asma,Baloch,pba262, @asmahyder ,4,2,58,"1,301",159,326
@@ -65,7 +65,7 @@ Jason,Barr,pba130, @jasonbarrru ,5,2,106,266,293,96
 John,Barrdear,pba1222, @johnbarrdear ,3,3,59,"1,249",371,204
 Alan,Barreca,pba1012, @alanbarreca ,7,7,271,"1,327",396,321
 Felipe,Barrera-Osorio,pba426, @felbarrera ,9,9,353,"1,882",553,"2,821"
-Zolt��n,Bartha,pba1146, @z655321 ,3,0,21,31,16,26
+ZoltÌÁn,Bartha,pba1146, @z655321 ,3,0,21,31,16,26
 Timothy,Bartik,pba76, @timbartik ,16,24,1848,"5,166","1,599","1,813"
 Francesco,Bartolucci,pba960, @f_bartolucci ,8,7,267,47,70,77
 Moreno,Baruffini,pba745, @baruffinimoreno ,1,0,3,623,414,137
@@ -77,11 +77,11 @@ Remi,Bazillier,pba247, @remibaz ,3,2,54,"3,149",903,"1,042"
 Lasse,Becker,pbe966, @lassebecker ,1,0,6,"15,500","1,526","4,530"
 Sascha,Becker,pbe98, @essobecker ,25,33,2745,"3,602",480,"1,853"
 Jodi,Beggs,pbe340, @jodiecongirl ,25,33,2745,"36,100","2,391","14,400"
-Germ��,Bel,pbe104, @gebelque ,12,16,536,"23,400","2,769","70,800"
+GermÌÊ,Bel,pbe104, @gebelque ,12,16,536,"23,400","2,769","70,800"
 Antoine,Belgodere,pbe372, @abelgo_optimum ,2,0,14,"1,879",341,562
 Peter,Bell,pbe887, @peternbell ,1,0,1,"19,800","1,474","1,210"
 Marc,Bellemare,pbe260, @marcfbellemare ,10,13,513,"15,400","2,359","4,840"
-Agn̬s,Benassy-Quere,pbe105, @agnesbq1 ,20,34,1336,50,47,415
+AgnÌ¬s,Benassy-Quere,pbe105, @agnesbq1 ,20,34,1336,50,47,415
 Jonathan,Benchimol,pbe432, @benchimolium ,2,1,31,259,832,703
 Patrick,Bennett,pbe1041, @pat_d_bennett ,1,0,1,46,114,55
 Yonatan,Ben-Shalom,pbe736, @benshalomy ,3,1,72,993,465,230
@@ -103,15 +103,15 @@ Antoine,Berthou,pbe393, @antoineberthou ,10,11,316,652,209,367
 James,Bessen,pbe44, @jamesbessen ,13,13,752,"2,850",584,"2,452"
 Keshab,Bhattarai,pbh51, @keshabrbhattar1 ,5,1,67,194,137,34
 Sumon,Bhaumik,pbh26, @sbhau ,11,12,545,"4,905",83,549
-Ingo,B̦bel,pbo42, @ibobel ,2,0,17,"1,946",183,244
-Ren̩,B̦heim,pbh15, @rboheim ,11,11,383,"5,196",459,473
-Sophie,B̩jean,pbj20, @sophiebejean ,3,1,28,"3,042","1,098","2,157"
+Ingo,BÌ¦bel,pbo42, @ibobel ,2,0,17,"1,946",183,244
+RenÌ©,BÌ¦heim,pbh15, @rboheim ,11,11,383,"5,196",459,473
+Sophie,BÌ©jean,pbj20, @sophiebejean ,3,1,28,"3,042","1,098","2,157"
 David,Bieri,pbi53, @space_economy ,2,1,13,228,324,206
 Vincent,Bignon,pbi82, @bignonvincent ,5,2,83,202,109,134
 Faik,Bilgili,pbi181, @maviwest ,6,4,120,"6,111",252,654
 Monica,Billio,pbi55, @mbillio ,15,19,940,395,206,361
 John,Bistline,pbi297, @jebistline ,3,0,21,386,335,184
-Hilde,Bj��rnland,pbj2, @hcbjornland ,14,19,607,"1,121",251,"1,724"
+Hilde,BjÌürnland,pbj2, @hcbjornland ,14,19,607,"1,121",251,"1,724"
 Sandra,Black,pbl92, @econ_sandy ,25,35,3990,608,267,"3,061"
 Olivier,Blanchard,pbl2, @ojblanchard1 ,63,124,21171,128,193,"19,300"
 David,Blanchflower,pbl22, @d_blanchflower ,37,66,7033,"97,300","2,454","61,400"
@@ -135,14 +135,14 @@ Alina,Botezat,pbo559, @alina_botezat ,2,0,11,166,414,39
 Olivier,Bouba-Olga,pbo465, @obouba ,4,1,52,"3,405",478,"3,627"
 Patrice,Bougette,pbo222, @pbougette ,3,0,22,572,416,382
 Jamal,Bouoiyour,pbo522, @bouoiyour_b ,7,5,186,600,439,215
-Renaud,Bourl̬s,pbo256, @renaudbourles ,7,6,283,804,333,228
+Renaud,BourlÌ¬s,pbo256, @renaudbourles ,7,6,283,804,333,228
 Leah,Boustan,pbo332, @leah_boustan ,11,12,459,"6,005",756,"7,026"
 Chad,Bown,pbo555, @chadbown ,14,22,631,"7,914",580,"46,600"
 John,Bradbury,pbr707, @jc_bradbury ,3,3,112,"12,000",311,"3,325"
-Pablo,Bra̱as-Garza,pbr52, @behsnaps ,13,15,449,551,455,"1,320"
+Pablo,BraÌ±as-Garza,pbr52, @behsnaps ,13,15,449,551,455,"1,320"
 William,Branch,pbr196, @williamabranch ,14,16,913,916,187,219
 Boris,Branisa,pbr324, @bbranisa ,6,4,94,"4,773","1,199",335
-Tilman,Br�?ck,pbr19, @tilmanbrueck ,12,12,406,101,380,302
+Tilman,BrÌ?ck,pbr19, @tilmanbrueck ,12,12,406,101,380,302
 Jason,Briggeman,pbr521, @jbriggeman ,1,1,11,"7,988",388,534
 Taggert,Brooks,pbr669, @brookstagg ,4,3,120,"1,920",476,254
 Annette,Brown,pbr630, @anbrowndc ,4,2,73,"2,221",137,932
@@ -152,7 +152,7 @@ Alex,Bryson,pbr105, @alexanderbryson ,14,23,854,378,8,439
 Kasey,Buckles,pbu157, @kasey_buckles ,7,5,271,303,127,990
 John,Budd,pbu1, @johnwbudd ,8,7,319,"1,557",167,562
 Ioan Sebastian,Buhai,pbu72, @sbuhai ,4,2,48,"6,915",99,188
-Gabriel,Burd�?n,pbu170, @gabrielburdin ,4,2,97,"5,346","1,849","1,575"
+Gabriel,BurdÌ?n,pbu170, @gabrielburdin ,4,2,97,"5,346","1,849","1,575"
 Paul,Burke,pbu214, @burke_ec ,9,8,214,"2,665","1,138","1,244"
 Fiona,Burlig,pbu426, @fburlig ,1,0,3,"2,392","1,776",895
 Matthieu,Bussiere,pbu118, @matt_bussiere ,21,31,1399,569,196,271
@@ -160,7 +160,7 @@ Kristy,Buzard,pbu379, @kbuzard7 ,4,0,32,167,50,103
 David,Byrne,pby17, @tornqvist999 ,6,6,206,703,95,419
 Gustavo,Caballero Orozco,pca706, @gcaballeroo ,1,0,3,"6,044",716,200
 Antonio,Cabrales,pca5, @cabralestweet ,18,28,893,"1,952",406,"2,642"
-Julia,Cagé,pca601, @cagejulia ,5,2,66,"4,614","1,858","13,300"
+Julia,CagÃ©,pca601, @cagejulia ,5,2,66,"4,614","1,858","13,300"
 Christophe,Cahn,pca442, @economhipster ,7,4,138,33,55,45
 Leigh,Caldwell,pca547, @leighblue ,7,4,138,"78,100","4,016","4,774"
 Enrique,Calfucura,pca119, @enriquecalfucur ,4,2,54,"6,805",456,637
@@ -186,7 +186,7 @@ Rafael,Cezar,pce118, @rafcezarr ,4,2,57,19,71,95
 Lekha,Chakraborty,pch589, @lekhachakrborty ,4,0,41,"13,300",932,684
 Areendam,Chanda,pch59, @areendam_c ,10,10,1077,618,289,160
 Arthur,Charpentier,pch1623, @freakonometrics ,5,4,105,"45,900","11,400","21,800"
-Cléo,Chassonnery-Zaïgouche,pch1191, @cleocz ,1,0,1,"1,027",745,427
+ClÃ©o,Chassonnery-ZaÃ¯gouche,pch1191, @cleocz ,1,0,1,"1,027",745,427
 Partha,Chatterjee,pch479, @p_chatterjee ,4,2,43,13,47,7
 Xi,Chen,pch679, @xcyale ,4,1,49,663,288,284
 Zhuo,Chen,pch405, @zhuo_adam_chen ,8,6,264,633,408,198
@@ -220,7 +220,7 @@ Miles,Corak,pco98, @milescorak ,15,20,940,456,103,"4,964"
 Laura,Coroneo,pco461, @lcoroneo ,4,2,73,87,63,297
 Joan,Costa-i-Font,pco20, @joancostaifont ,15,21,587,"2,637",272,680
 Virginie,Coudert,pco112, @virginiecouder1 ,17,23,852,137,196,157
-Jézabel,Couppey-Soubeyran,pco637, @jcs_mbf ,4,2,59,"2,864",483,"2,701"
+JÃ©zabel,Couppey-Soubeyran,pco637, @jcs_mbf ,4,2,59,"2,864",483,"2,701"
 Alfredo,Coutino,pco822, @alfredocoutino ,1,0,5,"2,997",14,865
 Enrique,Covarrubias,pco309, @enriquecovar ,1,0,3,"1,677",152,536
 Diane,Coyle,pco861, @dianecoyle1859 ,6,5,106,"34,800","1,010","17,800"
@@ -244,7 +244,7 @@ Jonathan,de Quidt,pde730, @jondequidt ,3,2,44,"3,081",339,518
 Gaetan,de Rassenfosse,pde369, @gderasse ,8,7,222,371,137,348
 Daniele,de Rigo,pde791, @dderigo ,2,0,9,425,47,39
 Martin,De Wit,pde503, @africaeconomist ,2,2,44,"2,284","1,032","1,266"
-Andr̩s,Dean,pde608, @andresdeanc ,5,2,107,"1,130",629,447
+AndrÌ©s,Dean,pde608, @andresdeanc ,5,2,107,"1,130",629,447
 Ryan,Decker,pde1061, @updatedpriors ,6,5,203,"16,100",462,"2,629"
 Thomas,Dee,pde619, @thomas_s_dee ,18,25,1307,971,553,"1,562"
 Salim,Dehmej,pde1006, @sdehmej ,1,0,2,"1,490",491,724
@@ -255,13 +255,13 @@ Marina,Della Giusta,pde403, @mardelgiu ,7,4,121,739,468,290
 Maria,Demertzis,pde274, @mariademertzis ,13,16,489,"1,696",160,472
 Panicos,Demetriades,pde5, @pdemetriades ,18,27,2039,"2,271",423,531
 Asli,Demirguc-Kunt,pde226, @ademirguckunt ,60,125,12474,288,68,780
-Laurent,Denant-Bo̬mont,pde364, @ldenant ,6,4,295,"3,389",305,230
+Laurent,Denant-BoÌ¬mont,pde364, @ldenant ,6,4,295,"3,389",305,230
 Kevin,Denny,pde229, @kevindenny ,10,11,335,"1,919",744,"1,204"
 Maxime,Desmarais-Tremblay,pde1050, @maxime_dt ,2,0,7,296,154,214
 Ralf,Dewenter,pde639, @blog_m ,10,11,261,"1,043",277,281
 Sowmya,Dhanaraj,pdh57, @dhanarajsowmya ,1,0,3,1,62,20
 Alessandro,Di Nola,pdi453, @aledinola ,1,1,12,"3,693",270,243
-Fabio,D�?az,pdi466, @diazfabioandres ,6,5,101,749,946,408
+Fabio,DÌ?az,pdi466, @diazfabioandres ,6,5,101,749,946,408
 Ana,Diaz Escobar,pdi179, @adiazescobar ,4,1,44,"2,655",697,764
 Fernando,Diaz Lopez,pda433, @fjdiazlopez ,1,0,6,"1,464",705,310
 Matt,Dickson,pdi176, @mattdickson__ ,7,7,157,"3,666",793,355
@@ -286,7 +286,7 @@ Sean,Dougherty,pdo17, @econecho ,8,6,161,817,515,677
 Jonas,Dovern,pdo155, @jonasdovern ,11,11,445,576,75,147
 Carlo,Drago,pdr32, @drago_carlo ,3,0,22,"2,507","1,355",937
 Thomas,Drechsel,pdr141, @td_econ ,3,2,100,885,618,474
-Susanne,Dr̦ge,pdr34, @droege_s ,4,1,38,701,204,421
+Susanne,DrÌ¦ge,pdr34, @droege_s ,4,1,38,701,204,421
 Andreas,Drichoutis,pdr28, @adrihout ,9,8,205,"11,000","1,206",866
 Chokri,Dridi,pdr8, @dridich ,4,1,46,292,158,80
 Marc,Duhamel,pdu178, @marc_duhamel ,1,1,14,"4,936",740,447
@@ -309,7 +309,7 @@ Johannes,Emmerling,pem32, @johannesemm ,4,2,40,9,135,56
 Robert,Engle,pen9, @Prof_RobEngle ,57,104,26383,42,21,700
 Mircea,Epure,pep12, @mircea_epure ,4,1,32,"2,589",341,398
 Orhan,Erdem,per106, @orhan_erdem ,3,2,29,"6,915",932,"1,589"
-Ver�?nica,Escudero,pes138, @veescudero_ ,2,1,32,243,"1,254","1,357"
+VerÌ?nica,Escudero,pes138, @veescudero_ ,2,1,32,243,"1,254","1,357"
 Dennis,Essers,pes101, @dennisessers ,3,0,23,"1,882",121,170
 Ivan,Etzo,pet10, @ivan_etzo ,4,3,106,1,1,13
 Olaniyi,Evans,pev65, @evansclopedia ,1,0,4,296,18,114
@@ -317,7 +317,7 @@ Anthony,Evans,pev27, @anthonyjevans ,2,0,9,"10,400",378,"1,362"
 David,Evans,pev50, @tukopamoja ,5,3,176,"9,095",514,"8,281"
 Johanna,Fajardo-Gonzalez,pfa258, @johannafg ,2,1,27,311,571,323
 Dean,Fantazzini,pfa92, @deanfantazzini ,7,4,137,"2,860",279,733
-Andr̩,Farber,pfa137, @Andre_Farber ,3,1,52,11,22,25
+AndrÌ©,Farber,pfa137, @Andre_Farber ,3,1,52,11,22,25
 Miguel,Faria-e-Castro,pfa225, @mfariacastro ,4,1,41,29,102,68
 Roger,Farmer,pfa3, @farmerrf ,24,44,2688,"5,300",344,"8,446"
 Angelo,Fasolo,pfa283, @amfasolo ,3,0,17,"14,300",815,937
@@ -331,7 +331,7 @@ Leopoldo,Fergusson,pfe176, @leopoldotweets ,7,7,174,"2,637",550,"4,652"
 Aurelio,Fernandez Bariviera,pfe210, @econophysicslab ,4,0,46,"1,747",704,229
 Laurent,Ferrara,pfe27, @ferraralaurent ,12,16,450,477,478,513
 Claudio,Ferraz,pfe125, @claudferraz ,8,8,593,"4,796",722,"2,681"
-Jos̩ Luis,Ferreira,pfe137, @jl_ferr ,4,2,56,"19,400",436,"3,848"
+JosÌ© Luis,Ferreira,pfe137, @jl_ferr ,4,2,56,"19,400",436,"3,848"
 Maurizio,Fiaschetti,pfi227, @maufiaschetti ,1,0,4,352,143,39
 Eleonora,Fichera,pfi204, @elliefichera ,3,0,19,"2,634",421,456
 Luis,Fierro,pfi312, @luis_fierro_eco ,1,0,1,"26,800","4,932","1,580"
@@ -376,17 +376,17 @@ Jorge,Garza-Rodriguez,pga587, @jorgegarzardz ,2,0,14,"1,228",178,58
 Silvia,Gatti,pga597, @silviagatti8 ,2,0,5,293,9,194
 Patrice,Gaubert,pga589, @patricegaubert1 ,3,2,57,"3,307","2,709","1,306"
 Alexia,Gaudeul,pga133, @agaudeul ,4,0,34,"3,758",924,460
-Patrick,Gaul̩,pga219, @patrick_gaule ,6,4,101,112,410,111
+Patrick,GaulÌ©,pga219, @patrick_gaule ,6,4,101,112,410,111
 Guillaume,Gaulier,pga84, @ggaulier ,15,21,1125,"2,009",523,671
 Alessandro,Gavazza,pga173, @a_gavazza ,9,9,193,711,315,310
 Alejandro,Gaviria,pga134, @agaviriau ,13,26,913,"35,900","1,249","191,000"
 Martin,Gaynor,pga1, @martinsgaynor ,20,26,1208,"18,300",675,"4,829"
-Fran̤ois,Geerolf,pge296, @fgeerolf ,2,0,11,119,733,190
+FranÌ¤ois,Geerolf,pge296, @fgeerolf ,2,0,11,119,733,190
 Vincent,Geloso,pge257, @vincentgeloso ,2,0,6,"10,900","1,501","2,200"
 Aleksandr,Gevorkyan,pge178, @avgevorkyan ,2,0,10,722,424,290
 Fabio,Ghironi,pgh2, @fabioghironi ,18,24,1511,"13,700",906,"2,591"
-Javier,G�?mez Prieto,pgm30, @jagopri ,1,0,2,"3,783","2,575","1,479"
-Refet,G�?rkaynak,pgu93, @refetgurkaynak ,18,19,2051,894,0,"28,500"
+Javier,GÌ?mez Prieto,pgm30, @jagopri ,1,0,2,"3,783","2,575","1,479"
+Refet,GÌ?rkaynak,pgu93, @refetgurkaynak ,18,19,2051,894,0,"28,500"
 Chloe,Gibbs,pgi306, @chloergibbs ,1,0,7,"1,321",556,"1,052"
 Marek,Giebel,pgi231, @marekgiebel ,1,0,2,"1,696",985,297
 Timothee,Gigout Magiorani,pgi344, @timufr ,1,0,2,488,242,52
@@ -408,7 +408,7 @@ Rebeca,Gomez Betancourt,pgo432, @rgbetancourt ,2,0,9,"2,297","1,751",908
 Clara,Gonzalez,pgo284, @glezclarisa ,4,0,31,"4,515","1,228","1,519"
 Manuel,Gonzalez-Astudillo,pgo189, @manugonzalez76 ,2,0,11,"27,100",965,"3,833"
 Martin,Gonzalez-Rozada,pgo321, @martingrozada ,8,6,231,"4,125",299,"2,436"
-Alberto,Gonz��lez de Aledo P̩rez,pgo791, @agpalberto ,6,1,98,363,147,139
+Alberto,GonzÌÁlez de Aledo PÌ©rez,pgo791, @agpalberto ,6,1,98,363,147,139
 Joshua,Goodman,pgo281, @joshuasgoodman ,8,6,235,"5,596",292,"3,691"
 Stephen,Gordon,pgo166, @stephenfgordon ,7,5,320,"40,900",627,"9,831"
 Stefano,Gori,pgo728, @stefgori73 ,1,0,3,"1,519","3,791",739
@@ -427,15 +427,15 @@ Shoshana,Grossbard,pgr93, @econoflove ,8,7,320,"16,700","2,297","4,020"
 Richard,Grossman,pgr394, @rsgrossman ,10,10,372,437,189,316
 Vincent,Grossmann-Wirth,pgr576, @vincegw ,1,0,3,749,"1,578",549
 Julia,Gruebler,pgr588, @juliagruebler ,3,0,11,99,167,92
-Guillaume,Gru̬re,pgr132, @ggruere ,8,7,160,"2,014",227,296
+Guillaume,GruÌ¬re,pgr132, @ggruere ,8,7,160,"2,014",227,296
 Andrea,Guariso,pgu517, @a_guariso ,3,1,31,80,374,150
 Gianni,Guastella,pgu344, @gianniguastella ,4,0,35,205,424,114
 Carlos,Guerrero-de-Lizardi,pgu157, @cgdelizardi ,2,0,12,"5,053",311,407
-Pierre,Gu̩rin,pgu370, @pierreconomics ,4,3,84,7,40,7
+Pierre,GuÌ©rin,pgu370, @pierreconomics ,4,3,84,7,40,7
 Marco,Guidi,pgu293, @melguidi ,1,0,9,123,274,264
 Bernardo,Guimaraes,pgu115, @bernardogmrs ,8,7,323,674,122,"1,935"
 Maria-Carmen,Guisan,pgu2, @mcguisan ,6,2,165,7,19,6
-C̩line,Guivarch,pgu160, @celineguivarch ,10,11,274,"1,028","1,161","1,020"
+CÌ©line,Guivarch,pgu160, @celineguivarch ,10,11,274,"1,028","1,161","1,020"
 Constantin,Gurdgiev,pgu359, @gtcost ,3,2,135,"176,000",841,"34,400"
 Sergei,Guriev,pgu59, @sguriev ,16,23,923,673,85,"55,400"
 Italo,Gutierrez,pgu568, @italoguti ,1,0,6,294,429,279
@@ -444,14 +444,14 @@ Metodij,Hadzi-Vaskov,pha531, @hadzivaskov ,2,1,26,2,2,36
 Christian,Hafner,pha77, @cmhafner ,18,24,723,91,217,83
 Md Mahbubul,Hakim,pha759, @mahbub_hakim ,1,0,3,19,31,8
 Martin,Halla,pha188, @hallamartin ,10,10,329,782,481,287
-Andr̩s,Ham,pha399, @ahamg ,2,1,23,"2,822",377,307
+AndrÌ©s,Ham,pha399, @ahamg ,2,1,23,"2,822",377,307
 Nacer-Eddine,Hammouda,pha712, @nacereddinehamm ,2,0,12,28,40,18
 Muhammad,Hanif,pha397, @nadimhanif ,7,4,123,90,76,58
 Colm,Harmon,pha269, @colmharmon ,20,32,1988,"8,021",921,"1,721"
 Mark,Harrison,pha297, @mark4harrison ,5,1,90,"3,354",159,"1,182"
 David,Harvey,pha1135, @profdavidharvey ,4,3,211,"2,815",737,"88,600"
 Zubair,Hasan,pha42, @hasan_zubair ,5,1,91,4,2,18
-M�?bariz,Hasanov,pha570, @mubariz_hasanov ,7,4,132,488,186,173
+MÌ?bariz,Hasanov,pha570, @mubariz_hasanov ,7,4,132,488,186,173
 Jonathan,Haskel,pha161, @haskelecon ,25,52,2499,"1,780",666,"3,224"
 Justus,Haucap,pha87, @haucap ,13,19,663,"8,600","1,855","3,380"
 Olena,Havrylchyk,pha384, @olenahavrylchyk ,9,9,301,766,849,541
@@ -461,11 +461,11 @@ Scott,Hegerty,phe290, @scottwhegerty ,9,8,321,23,367,23
 Gaston,Heimeriks,phe440, @gastonheimeriks ,6,4,117,994,345,510
 Nathan,Hendricks,phe387, @nphendricks ,5,4,88,876,464,540
 Joshua,Hendrickson,phe497, @rebeleconprof ,3,2,48,"6,585",324,"1,756"
-Carlos Eduardo,Hern��ndez,phe236, @cehernandezecon ,2,0,7,"1,290",708,368
+Carlos Eduardo,HernÌÁndez,phe236, @cehernandezecon ,2,0,7,"1,290",708,368
 Marcos,Herrera,phe373, @mherreragomez ,3,0,23,197,264,142
 Garth,Heutel,phe315, @garthheutel ,12,13,436,"1,396",794,702
-Paul,H�?nermund,phn4, @phuenermund ,2,0,16,"3,430","1,050",556
-Werner,H̦lzl,phl1, @whoelzl ,8,8,262,327,418,245
+Paul,HÌ?nermund,phn4, @phuenermund ,2,0,16,"3,430","1,050",556
+Werner,HÌ¦lzl,phl1, @whoelzl ,8,8,262,327,418,245
 Ross,Hickey,phi116, @rossatronhickey ,3,1,23,892,269,193
 Manuel,Hidalgo,phi57, @manuj_hidalgo ,2,1,22,"84,000","1,071","5,928"
 Alexander,Hijzen,phi32, @alexanderhijzen ,15,21,786,109,194,159
@@ -488,17 +488,17 @@ Daniel,Howdon,pho460, @danielhowdon ,2,0,5,"6,615",358,"2,342"
 Darren,Hudson,phu82, @competitiveag ,9,9,392,"2,041",450,828
 Brad,Humphreys,phu36, @humphreys_brad ,14,19,608,"4,278",920,"1,022"
 Rob,Hyndman,phy3, @robjhyndman ,18,27,1183,"1,183",656,"7,244"
-Andr��s,�lvarez,pal376, @aalvarezgallo ,2,0,9,"5,267",565,908
+Andrí©s,ílvarez,pal376, @aalvarezgallo ,2,0,9,"5,267",565,908
 Roberto,Iacono,pia29, @robertoiacono83 ,1,0,1,139,567,206
 Stefano,Iacus,pia3, @iacus ,6,5,372,"2,215",440,"1,197"
-Ana,Ib��̱ez,pib11, @anamibanez ,9,9,237,"2,423",975,"8,112"
+Ana,IbÌÁÌ±ez,pib11, @anamibanez ,9,9,237,"2,423",975,"8,112"
 Julien,Idier,pid4, @julien_idier ,5,3,134,85,172,199
-Hugo,��opo,pno16, @hugonopo ,10,11,302,"15,100",800,"6,826"
+Hugo,íïopo,pno16, @hugonopo ,10,11,302,"15,100",800,"6,826"
 Ethan,Ilzetzki,pil21, @ilzetzki ,8,7,858,"1,743",92,350
 Gerardo,Infante,pin66, @ge_inf ,2,1,14,"1,210",443,482
 Robert,Inklaar,pin7, @robertinklaar ,16,25,1389,164,37,195
 Yannis,Ioannides,pio6, @profymi ,22,39,2005,857,106,247
-Lars Peter,��sterdal,pst511, @lposterdal ,10,11,302,165,97,213
+Lars Peter,íÖsterdal,pst511, @lposterdal ,10,11,302,165,97,213
 Robert,Iquiapaza,piq6, @riquiapaza ,1,0,4,"1,855",312,56
 Peter,Ireland,pir1, @pirelandatbc ,22,39,2640,"1,974","1,253","1,291"
 Scott,Irwin,pir28, @scottirwinui ,16,33,1135,"8,792","13,200","13,400"
@@ -535,9 +535,9 @@ Claudia,Kemfert,pke85, @ckemfert ,15,16,924,"5,110",368,"7,982"
 Charles,Kenny,pke79, @charlesjkenny ,8,8,332,"19,400",409,"19,600"
 Christian,Ketels,pke167, @chrisketels ,7,6,115,"1,168",165,"1,480"
 Sarosh,Khan,pkh13, @saroshkhan ,1,0,8,"3,479",586,325
-David,Khoudour-Cast̩ras,pkh104, @davidkhoudour ,4,2,68,"2,729","3,006","3,801"
-L��szl�?,K�?czy,pko27, @laszlokoczy ,6,4,108,549,108,110
-Finn,K̦rner,pkr145, @liberalkorner ,1,0,7,10,10,18
+David,Khoudour-CastÌ©ras,pkh104, @davidkhoudour ,4,2,68,"2,729","3,006","3,801"
+LÌÁszlÌ?,KÌ?czy,pko27, @laszlokoczy ,6,4,108,549,108,110
+Finn,KÌ¦rner,pkr145, @liberalkorner ,1,0,7,10,10,18
 Aykut,Kibritcioglu,pki1, @akibritcioglu ,5,3,81,"22,200","1,898","9,692"
 Michael,Kiley,pki4, @michaelkiley5 ,20,28,1346,38,1,34
 Miles,Kimball,pki97, @mileskimball ,26,29,4813,"37,800",885,"15,900"
@@ -557,7 +557,7 @@ Stanislav,Kolenikov,pko3, @statstas ,7,4,198,"7,073","1,085",920
 Tom,Kompas,pko136, @tom_kompas ,12,16,473,"3,395","1,661","2,350"
 Florence,Kondylis,pko416, @fkondylis ,6,5,150,453,654,476
 Wojciech,Kopczuk,pko20, @wwwojtekk ,20,28,1263,"1,492",236,"1,000"
-Mikl�?s,Koren,pko6, @korenmiklos ,10,10,624,948,"1,383",557
+MiklÌ?s,Koren,pko6, @korenmiklos ,10,10,624,948,"1,383",557
 Iikka,Korhonen,pko199, @iikkakorhonen ,12,14,689,"26,200",852,"2,046"
 Dimitris,Korobilis,pko254, @dkorobilis ,13,14,906,1,1,21
 Edward,Kosack,pko794, @ekosack ,1,0,4,848,232,113
@@ -572,7 +572,7 @@ Jan,Kunnas,pku374, @jankunnas ,4,1,39,"8,282","2,283","1,241"
 Anne,Kuriakose,pku309, @atkuriakose ,2,0,9,"1,719","3,519",679
 Ingrid Harvold,Kvangraven,pkv10, @ingridharvold ,1,0,3,"4,789",845,"4,460"
 Marta,Lachowska,pla637, @martalachowska ,3,0,26,168,50,91
-Santiago,Lago-Pe̱as,pla71, @santiagolagop ,7,5,163,"5,921",328,"1,669"
+Santiago,Lago-PeÌ±as,pla71, @santiagolagop ,7,5,163,"5,921",328,"1,669"
 Kamal,Lamichhane,pla799, @kamallamichhan ,2,0,7,"1,376",208,"12,600"
 Neil,Lancastle,pla812, @neillancastle ,1,0,1,608,641,697
 Dominika,Langenmayr,pla562, @d_langenmayr ,4,3,55,648,285,425
@@ -584,7 +584,7 @@ Cristian,Larroulet Vignau,pla743, @clarroulet ,2,1,21,"11,200",997,"65,700"
 Paul,Latreille,pla168, @pllatreille ,9,7,211,"12,100","1,328","1,651"
 Luciano,Lavecchia,pla547, @lucianolavecchi ,2,0,9,60,"2,029","1,182"
 Anne,Lavigne,pla407, @anne__lavigne ,2,0,16,"5,624",207,855
-R̩mi,Le Gall,ple892, @legall_remi ,1,0,4,116,141,39
+RÌ©mi,Le Gall,ple892, @legall_remi ,1,0,4,116,141,39
 Andrew,Leach,ple228, @andrew_leach ,6,4,142,"80,500","1,887","19,000"
 Remy,Lecat,ple453, @remylecat ,7,4,131,199,198,175
 Viktor,Ledenyov,ple670, @viktoroledenyov ,1,0,3,"1,307","2,410",256
@@ -595,9 +595,9 @@ Tim,Leunig,ple341, @timleunig ,7,7,161,"5,833",131,"6,559"
 Andrew,Levin,ple143, @andrewtlevin ,29,40,7456,163,101,712
 Philip,Levy,ple306, @philipilevy ,5,4,298,"12,600","1,123","1,932"
 Eduardo,Levy Yeyati,ple99, @elyblog ,23,42,2438,"16,700",344,"32,400"
-Andr̩s,L�?pez,plp8, @anlopez1962 ,5,3,139,"3,956",645,"1,802"
-Ricardo,L�?pez,plo152, @ric4rdol ,9,8,440,57,167,131
-Andreas,L̦schel,pls1, @andreasloeschel ,17,26,961,"10,200","2,509","3,326"
+AndrÌ©s,LÌ?pez,plp8, @anlopez1962 ,5,3,139,"3,956",645,"1,802"
+Ricardo,LÌ?pez,plo152, @ric4rdol ,9,8,440,57,167,131
+Andreas,LÌ¦schel,pls1, @andreasloeschel ,17,26,961,"10,200","2,509","3,326"
 Gerardo,Licandro,pli996, @gerardolicandro ,3,1,27,"5,032",207,"2,330"
 Jeffrey,Lin,pli592, @jeffrlin ,4,4,260,498,192,223
 Marco,Lombardi,plo54, @marco_jacopo ,11,13,546,34,137,109
@@ -609,7 +609,7 @@ Shelly,Lundberg,plu82, @shellyjlundberg ,26,32,2957,"2,231",119,"3,894"
 Annamaria,Lusardi,plu347, @a_lusardi ,27,47,4121,"9,979",554,"5,988"
 Jayson,Lusk,plu63, @jaysonlusk ,24,56,2314,"7,323",995,"4,605"
 Ronan,Lyons,ply25, @ronanlyons ,3,1,63,"21,200",778,"18,200"
-Jo��l,Machado Carneiro,pma1335, @econjoelmachado ,4,1,51,401,540,256
+JoÌÇl,Machado Carneiro,pma1335, @econjoelmachado ,4,1,51,401,540,256
 Mario,Macis,pma869, @mmacis ,10,10,312,"2,868",575,891
 David,Macpherson,pma214, @macpherson_da ,13,17,704,22,61,38
 Michael,Mainelli,pma2164, @mrmainelli ,1,0,4,"2,748",177,"3,500"
@@ -627,18 +627,18 @@ Marco,Marini,pma163, @marcomariniuni ,4,1,59,13,66,78
 Mohamed,Marouani,pma684, @dalimarouani ,6,3,113,"2,069",205,480
 Alejandro,Marquez-Velazquez,pma1766, @ale_marquez ,2,0,5,795,671,287
 Thomas,Marsh,pma351, @thomaslmarsh1 ,9,5,381,9,37,35
-Cl̩ment,Marsilli,pma1639, @clementmarsilli ,3,2,40,894,670,315
-Isabel,Mart�?nez,pma1777, @izmartinez86 ,2,0,7,234,240,210
-Inmaculada,Mart�?nez-Zarzoso,pma470, @martinei1 ,14,17,777,23,32,36
+ClÌ©ment,Marsilli,pma1639, @clementmarsilli ,3,2,40,894,670,315
+Isabel,MartÌ?nez,pma1777, @izmartinez86 ,2,0,7,234,240,210
+Inmaculada,MartÌ?nez-Zarzoso,pma470, @martinei1 ,14,17,777,23,32,36
 Andrew,Martinez,pma1768, @andrewbmartinez ,3,0,15,211,82,58
 Monica,Martinez-Bravo,pma1375, @monicambravo ,4,4,69,303,373,"1,041"
 Pedro,Martins,pma50, @pmrsmartins ,17,26,885,"3,340","2,936","1,316"
 Bruno,Martorano,pma2054, @bruno_martorano ,5,3,89,87,243,156
-Fr̩d̩ric,Marty,pma442, @fred_marty ,3,0,27,"1,572",378,693
+FrÌ©dÌ©ric,Marty,pma442, @fred_marty ,3,0,27,"1,572",378,693
 Benedicta,Marzinotto,pma1298, @bmarzinotto ,5,4,78,"1,102",258,394
 Ilaria,Maselli,pma1836, @ilariainbxl ,4,1,48,"2,394",813,984
 William,Masters,pma113, @wamasters ,10,11,682,356,501,714
-Carlos,Mat̩,pma1469, @carlomate ,3,1,30,28,67,38
+Carlos,MatÌ©,pma1469, @carlomate ,3,1,30,28,67,38
 Raffaele,Mattera,pma2509, @matteraraffaele ,3,1,30,"1,595",112,66
 Alan,Maynard,pma2597, @ProfAlanMaynard ,3,1,30,"34,300","1,474","12,300"
 Mark,McGovern,pmc202, @mcgovern_me ,3,0,36,226,179,214
@@ -650,15 +650,15 @@ Kelbesa,Megersa,pme555, @kelbesamegersa ,2,0,6,578,902,187
 Rahul,Mehrotra,pme692, @rrahulmehrotra ,1,0,3,361,"1,069",231
 Christopher,Meissner,pme45, @cmicmeissner ,16,18,810,429,277,550
 Isabelle,Mejean,pmj1, @isabellemejean ,11,12,374,90,127,185
-Luis-Fernando,Mej�?a,pme106, @luisfermejia ,4,3,535,"2,410",566,"6,001"
+Luis-Fernando,MejÌ?a,pme106, @luisfermejia ,4,3,535,"2,410",566,"6,001"
 Daniel,Mejia,pme228, @danielmejial ,7,6,152,"9,155",719,"20,500"
 Antonio,Mele,pme328, @antoniomele101 ,1,1,15,"15,200","3,072","1,021"
 Angel,Melguizo,pme327, @angelmelguizo ,7,3,131,"8,578",415,"3,083"
-Marcela,Mel̩ndez,pme414, @melendezmarcela ,6,1,108,"4,970",666,"4,049"
+Marcela,MelÌ©ndez,pme414, @melendezmarcela ,6,1,108,"4,970",666,"4,049"
 Taye,Mengistae,pme90, @tayemengistae ,10,10,411,569,220,67
 Robert,Metcalfe,pme196, @rdmetcalfe ,9,9,316,"1,638",535,920
 Dominique,Meurs,pme234, @divisquin ,8,7,266,"3,209",241,407
-Sven,M�?ller,pml29, @geooptimization ,2,1,24,"1,686",906,729
+Sven,MÌ?ller,pml29, @geooptimization ,2,1,24,"1,686",906,729
 Bryane,Michael,pmi53, @bryanebryane ,1,0,5,529,337,129
 Eric,Micheels,pmi679, @ericmicheels ,1,0,8,"1,637",817,661
 Jo,Michell,pmi660, @jomicheii ,2,2,34,"29,700",918,"4,166"
@@ -675,8 +675,8 @@ Antoine,Missemer,pmi711, @ant_mis1 ,2,0,8,479,599,779
 Matthew,Mitchell,pmi30, @m_ttm_ ,10,10,310,"2,142",304,355
 Olivia,Mitchell,pmi73, @os_mitchell ,28,66,3632,"5,593",449,"2,746"
 Kurt,Mitman,pmi418, @sorrytobekurt ,9,8,245,"3,579",308,"1,030"
-Jarle,M��en,pmo44, @jarlenhh ,10,10,552,456,918,999
-J��rgen,Modalsli,pmo642, @modalsli ,3,0,19,179,390,160
+Jarle,MÌüen,pmo44, @jarlenhh ,10,10,552,456,918,999
+JÌürgen,Modalsli,pmo642, @modalsli ,3,0,19,179,390,160
 Kamiar,Mohaddes,pmo519, @kamiarmohaddes ,11,12,352,293,420,274
 Vahid,Mohamad Taghvaee,pmo908, @vahidestan ,1,0,4,36,31,25
 Ghulam,Mohey-ud-din,pab58, @moheyuddin ,1,0,4,962,249,58
@@ -684,7 +684,7 @@ Benoit,Mojon,pmo43, @benoitmojon ,22,25,1826,106,212,331
 Oswaldo,Molina,pmo979, @oswaldomolinac ,2,0,12,995,659,"1,320"
 Leonardo,Monasterio,pmo360, @lmonasterio ,4,0,30,"17,500",917,"3,978"
 Christian Alexander,Mongeau Ospina,pmo915, @chrmongeau ,1,0,3,948,224,432
-Ant�?nio,Moniz,pmo357, @abmoniz ,2,1,24,"1,708","1,393",564
+AntÌ?nio,Moniz,pmo357, @abmoniz ,2,1,24,"1,708","1,393",564
 Eric,Monnet,pmo745, @monneteric ,4,1,40,122,140,139
 Salvatore,Monni,pmo251, @salvatoremonni ,4,3,116,"3,606","2,566","3,344"
 Pierre,Monnin,pmo1000, @pierre_monnin ,5,3,127,874,100,280
@@ -705,11 +705,11 @@ Harun,Nasir,pna561, @harunnasir ,17,20,1275,219,75,97
 Max,Nathan,pna331, @iammaxnathan ,8,7,169,"4,233",794,"1,871"
 Reynold,Nathanael,pna580, @reynoldcnathan ,1,0,4,13,19,53
 Trilce,Navarrete,pna552, @trilcenavarrete ,2,0,8,"4,485",422,681
-Noem�?,Navarro,pna169, @noenavarro ,6,2,110,"2,422",250,84
+NoemÌ?,Navarro,pna169, @noenavarro ,6,2,110,"2,422",250,84
 Erik,Nelson,pne266, @mnriles01 ,4,2,53,137,182,69
 Mariya,Neycheva,pne67, @mariyaneycheva ,2,0,17,12,44,60
-Benǫt,Nguyen,png225, @benoit_nguyen ,3,1,18,442,117,243
-Ga��tan,Nicod̬me,pni10, @gaetannicodeme ,19,30,1220,685,"1,256",492
+BenoÌ¨t,Nguyen,png225, @benoit_nguyen ,3,1,18,442,117,243
+GaÌÇtan,NicodÌ¬me,pni10, @gaetannicodeme ,19,30,1220,685,"1,256",492
 Paul,Niehaus,pni384, @paulfniehaus ,6,6,189,"1,700",179,"2,840"
 Milena,Nikolova,pni401, @milenkanik ,5,3,58,791,"1,174",464
 Tomas,Nilsson,pni30, @tknilsso ,3,2,58,"2,451",154,357
@@ -751,7 +751,7 @@ Elisenda,Paluzie,ppa29, @epaluzie ,7,6,202,"15,600","2,031","40,700"
 Theodore,Panagiotidis,ppa215, @tpanagiotidis ,12,15,487,"2,135",252,206
 Radhika,Pandey,ppa632, @radhikaskp ,4,1,41,408,43,372
 Ugo,Panizza,ppa92, @upanizza ,25,48,2959,"5,291",673,"1,415"
-Juli��n,Parra-Polan�?a,ppa741, @japuneco79 ,4,1,47,730,466,618
+JuliÌÁn,Parra-PolanÌ?a,ppa741, @japuneco79 ,4,1,47,730,466,618
 David,Parsley,ppa30, @dc_parsley ,15,18,1298,991,211,118
 M. Daniele,Paserman,ppa129, @danielepaserman ,17,19,990,"1,593",502,982
 Evgenia,Passari,ppa1083, @evgenia_passari ,1,1,34,27,99,100
@@ -759,7 +759,7 @@ Francesco,Pastore,ppa23, @francpastore ,10,10,295,"1,530",436,386
 Harry,Patrinos,ppa91, @hpatrinos ,13,17,1319,"8,930","2,982","4,383"
 Gert,Peersman,ppe413, @gertpeersman ,24,29,2592,"2,333",624,"8,721"
 Thomas,Peeters,ppe415, @thpeeter ,5,3,51,356,204,206
-Ximena,Pe̱a,ppe259, @ximena_pena ,6,5,138,"2,651",990,"2,642"
+Ximena,PeÌ±a,ppe259, @ximena_pena ,6,5,138,"2,651",990,"2,642"
 Andreas,Peichl,ppe202, @apeichl ,18,32,1237,"5,324","1,841","2,088"
 Matteo,Pelagatti,ppe139, @matteopela ,6,4,124,16,78,49
 Panu,Pelkonen,ppe467, @ppelk ,4,4,119,985,188,271
@@ -778,8 +778,8 @@ Carmelo,Petraglia,ppe156, @c_petraglia ,7,7,213,"2,993",221,416
 Dennis,Petrie,ppe206, @dennisjpetrie ,5,1,66,566,339,291
 Richard,Phelps,pph73, @richardpphelps ,1,0,4,"5,999",482,582
 Edmund,Phelps,pph34, @EdmundPhelps ,20,32,2802,243,116,"1,846"
-Levi,P̩rez,ppe450, @perezlevi ,3,0,25,"5,578",484,343
-Jorge,P̩rez P̩rez,ppe453, @jorpppp ,1,0,1,"2,454",608,352
+Levi,PÌ©rez,ppe450, @perezlevi ,3,0,25,"5,578",484,343
+Jorge,PÌ©rez PÌ©rez,ppe453, @jorpppp ,1,0,1,"2,454",608,352
 Marcin,Piatkowski,ppi215, @mmpiatkowski ,5,1,88,"15,600",524,"2,945"
 Giovanni,Pica,ppi36, @giovapica ,10,10,427,451,736,390
 Gina,Pieters,ppi307, @prof_pieters ,1,0,3,908,619,656
@@ -811,7 +811,7 @@ Eugenio,Proto,ppr82, @eugenioproto ,8,5,225,"1,993",376,677
 Espen,Prydz,ppr317, @espry ,3,2,53,"1,017",484,919
 Esteban,Puentes,ppu67, @epuentese ,4,1,60,937,501,595
 Riccardo,Puglisi,ppu49, @ricpuglisi ,8,7,238,"167,000","6,225","23,100"
-Th̩r̬se,Quang,pqu101, @qngth ,1,1,10,394,253,240
+ThÌ©rÌ¬se,Quang,pqu101, @qngth ,1,1,10,394,253,240
 Bastiaan,Quast,pqu133, @baquast ,1,1,12,145,373,116
 Philippe,Quirion,pqu23, @pquirion1 ,15,19,784,285,164,260
 Roberta,Rabellotti,pra101, @robertarab ,13,13,576,785,340,420
@@ -828,7 +828,7 @@ Paul,Raschky,pra269, @paulraschky ,9,9,439,623,324,433
 Imran,Rasul,pra365, @imranrasul3 ,25,32,2435,938,336,"2,598"
 Roland,Rathelot,pra238, @rolandrathelot ,7,7,410,29,201,268
 Martin,Ravallion,pra29, @MartinRavallion ,54,160,10313,"1,034",246,"6,606"
-S��ren Hove,Ravn,pra848, @s_hoveravn ,3,1,24,471,238,362
+SÌüren Hove,Ravn,pra848, @s_hoveravn ,3,1,24,471,238,362
 Vikas,Rawal,pra76, @panread ,2,0,17,385,146,32
 Saon,Ray,pra545, @saonray ,1,0,1,115,58,22
 Mark,Reader,pre90, @reader_ma ,2,0,7,"2,517",388,198
@@ -854,7 +854,7 @@ Nicholas,Rivers,pri290, @riversnic ,11,15,289,"2,465",326,"1,571"
 Juan,Robalino,pro542, @jrobalinoecon ,9,8,213,355,414,157
 Jose,Roche,pro572, @jomroche ,5,3,166,"5,882","2,117","1,782"
 Louis-Philippe,Rochon,pro341, @lprochon ,7,2,188,"3,542",80,"1,126"
-Andr̩s,Rodr�?guez-Pose,pro131, @rodriguez_pose ,23,52,1856,483,940,"1,679"
+AndrÌ©s,RodrÌ?guez-Pose,pro131, @rodriguez_pose ,23,52,1856,483,940,"1,679"
 Dani,Rodrik,pro60, @rodrikdani ,50,109,13919,"19,800",407,"92,700"
 Ole,Rogeberg,pro413, @olerogeberg ,4,3,106,"1,736",157,448
 Kenneth,Rogoff,pro164, @krogoff ,63,109,28586,459,178,"11,400"
@@ -887,7 +887,7 @@ Claudia,Sahm,psa596, @claudia_sahm ,6,4,213,"10,400",700,"7,039"
 Jean-Guillaume,Sahuc,psa109, @jgsahuc ,10,10,351,147,81,182
 Xavier,Sala-i-Martin,psa510, @xsalaimartin ,39,53,8792,"19,700",264,"442,000"
 Sener,Salci,psa1406, @senersalci ,1,0,5,161,218,103
-Joaqu�?n,Saldain,psa1416, @joaco_saldain ,1,0,3,"11,100",833,574
+JoaquÌ?n,Saldain,psa1416, @joaco_saldain ,1,0,3,"11,100",833,574
 Francesco,Salustri,psa1373, @francescosalust ,2,0,11,"1,416",999,282
 Pablo,Salvador,psa413, @pablofsalvador ,2,1,45,"15,900","1,503","2,270"
 Christopher,Sampson,psa1048, @chrissampson87 ,1,0,1,"3,286",971,"1,150"
@@ -929,8 +929,8 @@ Roman,Sheremeta,psh307, @rshereme ,19,33,1331,25,31,137
 Brandon,Sheridan,psh651, @economics_bs ,3,1,27,"1,029",243,301
 Robert,Shiller,psh69, @robertjshiller ,42,85,9924,210,32,"117,000"
 Hyun Song,Shin,psh692, @hyunsongshin ,41,108,6842,768,386,"16,200"
-Isaac,S��nchez-Ju��rez,pju66, @tiempoeconomico ,5,5,154,"4,979","3,229","4,292"
-Santiago,S��nchez-Pag̩s,psn5, @sanpages ,6,4,312,"1,497",304,402
+Isaac,SÌÁnchez-JuÌÁrez,pju66, @tiempoeconomico ,5,5,154,"4,979","3,229","4,292"
+Santiago,SÌÁnchez-PagÌ©s,psn5, @sanpages ,6,4,312,"1,497",304,402
 Khalid,Siddig,psi364, @khalidhasiddig ,3,1,46,14,92,38
 Francisca,Silva,psi358, @fransilvat ,2,2,44,"2,876",557,"1,252"
 Olivier,Simard-Casanova,psi519, @simardcasanova ,2,2,44,"7,837",925,551
@@ -938,7 +938,7 @@ Tara,Sinclair,psi150, @tarasinc ,7,6,167,"2,661",990,"2,105"
 Anushree,Sinha,psi276, @anushreesinha1 ,2,0,9,16,16,4
 Hans-Werner,Sinn,psi146, @hanswernersinn ,33,79,3801,236,6,"10,500"
 Ibrahim,Sirkeci,psi43, @isirkeci ,5,1,74,"2,563",932,"1,359"
-Erik,S��rensen,psr18, @erikosorensen ,13,14,687,678,492,275
+Erik,SÌürensen,psr18, @erikosorensen ,13,14,687,678,492,275
 Peter,Sivey,psi383, @petesivey ,7,7,142,"1,628",437,366
 Ahmed,Skali,psk106, @ahmedskali ,1,0,3,450,301,151
 Natalia,Smirnova,psm25, @aier_natalia ,1,0,3,527,187,286
@@ -994,20 +994,20 @@ Lindsay,Tedds,pte38, @lindsaytedds ,5,3,81,"7,861",875,"3,883"
 Ernie,Tedeschi,pte270, @ernietedeschi ,5,3,81,"35,400","3,023","5,994"
 Erdal,Tekin,pte12, @erdal_tekin_ ,16,22,722,"1,919",72,691
 Gemma,Tetlow,pte169, @gemmatetlow ,6,2,100,736,193,"2,453"
-Pierre-Emmanuel,Thérond,pth190, @pierretherond ,2,0,11,936,268,339
-Olivier,Thévenon,pth83, @othevenon ,6,5,164,"4,021","1,312",575
+Pierre-Emmanuel,ThÃ©rond,pth190, @pierretherond ,2,0,11,936,268,339
+Olivier,ThÃ©venon,pth83, @othevenon ,6,5,164,"4,021","1,312",575
 Richard,Thaler,pth67, @r_thaler ,50,73,12746,"5,943",500,"120,000"
 Emmanuel,Thibault,pth23, @emmathibault ,4,3,99,136,78,226
 Mark,Thoma,pth228, @markthoma ,7,4,221,"59,700",433,"44,600"
 Katrin,Tinn,pti91, @tinn_katrin ,2,0,8,147,104,113
 Jean,Tirole,pti33, @JeanTirole ,75,161,24284,10,0,"11,000"
 Emilia,Tjernstrom,ptj7, @etjernst ,1,1,22,"2,620",437,598
-Santiago,Tobón,pto355, @santiagotobon ,1,0,1,"10,500","1,215","1,647"
+Santiago,TobÃ³n,pto355, @santiagotobon ,1,0,1,"10,500","1,215","1,647"
 Richard,Tol,pto90, @richardtol ,29,102,3605,"56,200",435,"6,441"
 Trevor,Tombe,pto222, @trevortombe ,6,5,203,"46,500","4,102","9,918"
 Daniele,Tori,pto318, @da8to ,3,1,29,"1,609",713,299
 Sara,Torregrosa-Hetland,pto345, @sthetland ,1,0,2,"1,646",463,459
-Víctor,Torres Preciado,pto206, @torrespreciado ,2,0,8,933,164,67
+VÃ­ctor,Torres Preciado,pto206, @torrespreciado ,2,0,8,933,164,67
 Dario,Tortarolo,pto327, @dtortarolo ,1,0,2,"2,043",766,583
 Orhan,Torul,pto175, @orhantorul ,2,0,16,"2,669",363,885
 Mohamed Ali,Trabelsi,ptr145, @daly1704 ,3,0,17,20,330,15
@@ -1027,7 +1027,7 @@ David,Ubilava,pub8, @dubilava ,4,2,69,385,148,183
 Martin,Uebele,pue7, @martinuebele ,5,1,52,67,61,57
 Jeemol,Unni,pun33, @jeemolunni ,3,1,79,880,355,480
 Jorge,Uribe,pur43, @jorgemariouribe ,2,0,14,"2,665",27,240
-Pierre-Louis,Vézina,pvz5, @luiginomics ,7,4,96,842,"1,538",608
+Pierre-Louis,VÃ©zina,pvz5, @luiginomics ,7,4,96,842,"1,538",608
 Imraan,Valodia,pva771, @ivalodia ,2,0,10,188,607,283
 Bjorn,Van Campenhout,pva229, @bjvca ,7,6,180,605,657,300
 Nicolas,Van de Sijpe,pva211, @nicvdsijpe ,4,3,70,"8,901",397,442
@@ -1053,7 +1053,7 @@ Edouard,Vidon,pvi171, @edouardvidon ,3,0,22,"2,406",566,318
 Juan,Villa,pvi56, @juanmvilla ,5,4,111,"5,688",463,"1,167"
 Alejandro,Villagomez,pvi134, @favillagomez ,3,0,22,"10,400","1,894","10,100"
 Mauricio,Villamizar-Villegas,pvi64, @mauriciovillam ,6,4,110,182,29,198
-Sébastien,Villemot,pvi141, @sebvillemot ,3,2,49,"1,318",902,"1,336"
+SÃ©bastien,Villemot,pvi141, @sebvillemot ,3,2,49,"1,318",902,"1,336"
 Chaiporn,Vithessonthi,pvi291, @drchaiporn ,4,0,39,"2,242",68,97
 Jonas,Vlachos,pvl4, @jonasvlachos ,12,14,588,"23,300",730,"5,203"
 Dietrich,Vollrath,pvo98, @dietzvollrath ,12,12,780,837,96,"1,510"
@@ -1096,7 +1096,7 @@ Timothy,Worrall,pwo43, @timsworrall ,7,6,896,42,82,23
 Simon,Wren-Lewis,pwr17, @sjwrenlewis ,15,22,848,"14,000",150,"22,900"
 Guo,Xu,pxu79, @guoxu_econ ,2,0,14,57,770,"1,423"
 Melanie Meng,Xue,pxu96, @melanie_xue ,1,0,1,303,193,336
-Mustafa,Yücel,pyu25, @erayyucel ,6,4,117,"5,669",335,481
+Mustafa,YÃ¼cel,pyu25, @erayyucel ,6,4,117,"5,669",335,481
 Dean,Yang,pya75, @deanyang ,19,28,1649,667,218,"2,420"
 Yosuke,Yasuda,pya185, @yagena ,3,2,129,"32,100",427,"19,700"
 Hakan,Yilmazkuday,pyi32, @yilmazkuday ,9,9,217,298,791,239
@@ -1118,4 +1118,4 @@ Klaus,Zimmermann,pzi13, @kfzimmermann ,29,91,3554,692,140,551
 Jesse,Zinn,pzi98, @jesseaaronzinn ,1,0,1,171,28,49
 Dawid,Zochowski,poc8, @dzochow ,1,0,1,16,52,12
 Gabriel,Zucman,pzu32, @gabriel_zucman ,9,9,699,"1,854",905,"13,300"
-Martina,Zweimüller,pzw7, @mrszed78 ,7,6,134,23,98,25
+Martina,ZweimÃ¼ller,pzw7, @mrszed78 ,7,6,134,23,98,25
