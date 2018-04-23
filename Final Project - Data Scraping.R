@@ -188,10 +188,11 @@ temp.webpage.twitter3 <- paste0(webpage.4, username)
 records.twitter3 <- vector("list", length = length(temp.webpage.twitter3))
   
 #Create a loop to collect the Twitter data - number of tweets, followers, and following
+#For some reason the tweets come with a '\n' at the end of them so you will need to trim that
 for (i in seq_along(temp.webpage.twitter3)){
   tryCatch(
     {
-      tweets    <- read_html(temp.webpage.twitter3[i]) %>% html_nodes(".is-active .ProfileNav-value") %>% html_text(.)
+      tweets    <- read_html(temp.webpage.twitter3[i]) %>% html_nodes(".is-active .ProfileNav-value") %>% html_text(trim = TRUE)
       following <- read_html(temp.webpage.twitter3[i]) %>% html_nodes(".ProfileNav-item--following .ProfileNav-value") %>% html_text(.)
       followers <- read_html(temp.webpage.twitter3[i]) %>% html_nodes(".ProfileNav-item--followers .ProfileNav-value") %>% html_text(.)
     },
