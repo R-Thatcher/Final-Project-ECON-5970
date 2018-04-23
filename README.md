@@ -214,3 +214,5 @@ write_csv(df.twitter3, "records-twitter3.csv")
 You will then open this file in Excel and add these columns to the rest of the records in 'records-twitter.csv'. After that you will also need to do a select all and find all of the '.k's and replace them with zeros. For example, if a person has 12,000 followers Twitter reported it as 12.k, and by doing a replace all in Excel you can turn 12.k into 12,000.
 
 And you have done it! You now have CSV files for both the Economists on Twitter and those who are not!
+
+## Getting Some Results
