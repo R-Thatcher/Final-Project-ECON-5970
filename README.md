@@ -86,17 +86,19 @@ temp.webpage.2 <- paste0(webpage.2, records.1$ID, '.html')
 #Create a vector for the information to be stored in
 records.2 <- vector("list", length = length(temp.webpage.2))
   
-#Create a loop that will collect the data from the citation cite - the h.index, i10.index, and number of citations
+#Create a loop that will collect the data from the citation cite - the h.index, i10.index, and number of citations, and number of years they have been active.
 for (i in seq_along(temp.webpage.2)){
   tryCatch(
     {  
-      h.index   <- read_html(temp.webpage.2[i]) %>% html_nodes("#Ahindex:nth-child(1) .indData") %>% html_text(.)
-      i10.index <- read_html(temp.webpage.2[i]) %>% html_nodes("#Ahindex:nth-child(2) .indData") %>% html_text(.)
-      citations <- read_html(temp.webpage.2[i])%>% html_nodes("#Ahindex~ #Ahindex+ #Ahindex .indData") %>% html_text(.)
+      h.index        <- read_html(temp.webpage.2[i]) %>% html_nodes("#Ahindex:nth-child(1) .indData") %>% html_text(.)
+      i10.index      <- read_html(temp.webpage.2[i]) %>% html_nodes("#Ahindex:nth-child(2) .indData") %>% html_text(.)
+      citations      <- read_html(temp.webpage.2[i])%>% html_nodes("#Ahindex~ #Ahindex+ #Ahindex .indData") %>% html_text(.)
+      years.active   <- read_html(temp.webpage.2[i]) %>% html_nodes("div+ p") %>% html_text(.)
+      years.active   <- str_sub(years.active[1], start = 4, end = 5)
     },
     error = function(e) print("NA")
   )
-  records.2[[i]] <- data_frame(h.index = h.index, i10.index = i10.index, citations = citations)
+  records.2[[i]] <- data_frame(h.index = h.index, i10.index = i10.index, citations = citations, years.active = years.active)
 }
   
 #Bind the records into a data frame
@@ -105,7 +107,7 @@ df2 <- bind_rows(records.2)
 #Create a CSV of the data frame
 write_csv(df2, "records-2.csv")
 ```
-Now, we will open both our records-1.csv and records-2.csv in Excel and combine the two files, thus creating one file that contains the first and last names, ID, h index, i10 index, and citation count for each of the Economists. In Excel we will also clean the data up a bit. Some of the records were incomplete or did not exist anymore, and so R put zeros in each the h index, i10 index, and citations columns. We will delete these columns and then re-alphabatize the records by last name.
+Now, we will open both our records-1.csv and records-2.csv in Excel and combine the two files, thus creating one file that contains the first and last names, ID, h index, i10 index, citation count for each of the Economists, and the number of years they have been active. In Excel we will also clean the data up a bit. Some of the records were incomplete or did not exist anymore, and so R put zeros in each the h index, i10 index, and citations columns. We will delete these columns and then re-alphabatize the records by last name.
 
 We will then also have to add all of the letters together in Excel, as each letter had to be gathered individually. Once done we have a list of all Economists data which I named 'records-final.csv'.
 
@@ -157,13 +159,15 @@ records.twitter2 <- vector("list", length = length(temp.webpage.twitter2))
 for (i in seq_along(temp.webpage.twitter2)){
   tryCatch(
     {
-      h.index   <- read_html(temp.webpage.twitter2[i]) %>% html_nodes("#Ahindex:nth-child(1) .indData") %>% html_text(.)
-      i10.index <- read_html(temp.webpage.twitter2[i]) %>% html_nodes("#Ahindex:nth-child(2) .indData") %>% html_text(.)
-      citations <- read_html(temp.webpage.twitter2[i]) %>% html_nodes("#Ahindex~ #Ahindex+ #Ahindex .indData") %>% html_text(.)
+      h.index        <- read_html(temp.webpage.twitter2[i]) %>% html_nodes("#Ahindex:nth-child(1) .indData") %>% html_text(.)
+      i10.index      <- read_html(temp.webpage.twitter2[i]) %>% html_nodes("#Ahindex:nth-child(2) .indData") %>% html_text(.)
+      citations      <- read_html(temp.webpage.twitter2[i]) %>% html_nodes("#Ahindex~ #Ahindex+ #Ahindex .indData") %>% html_text(.)
+      years.active   <- read_html(temp.webpage.2[i]) %>% html_nodes("div+ p") %>% html_text(.)
+      years.active   <- str_sub(years.active[1], start = 4, end = 5)
     },
     error = function(e) print("NA")
   )
-  records.twitter2[[i]] <- data_frame(h.index = h.index, i10.index = i10.index, citations = citations)
+  records.twitter2[[i]] <- data_frame(h.index = h.index, i10.index = i10.index, citations = citations, years.active = years.active)
 }
   
 #Bind the rows
