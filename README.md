@@ -219,4 +219,29 @@ You will then open this file in Excel and add these columns to the rest of the r
 
 And you have done it! You now have CSV files for both the Economists on Twitter and those who are not!
 
-## Getting Some Results
+## Analyzing the Data
+
+Now we will look at the data was have collected to see what it can tell us.
+
+```
+#Install ggplot
+library("ggplot2")
+
+#Import the csv files we created
+econ.twitter <- read.csv("Economists-Twitter.csv")
+non.twitter <- read.csv("Economists-NonTwitter.csv")
+all.names <- read.csv("Economists-All.csv")
+
+#Get a quick look at the data
+summary(econ.twitter)
+summary(non.twitter)
+summary(all.names)
+
+#Create a lindear regression model
+lmodel <- lm(log(citations) ~ log(followers) + I(years.active^2), data = econ.twitter)
+
+#Get the Summary of the model
+summary(lmodel)
+
+#Plot the model
+plot(lmodel)
