@@ -266,5 +266,15 @@ lmodel <- lm(log(citations) ~ log(followers) + I(years.active^2), data = econ.tw
 #Get the Summary of the model
 summary(lmodel)
 
-#Plot the model
-plot(lmodel)
+#Create a lindear regression model
+lmodel <- lm(log(citations) ~ log(followers) + years.active + I(years.active^2), data = econ.twitter)
+
+#Get the Summary of the model
+summary(lmodel)
+
+#Plot the two independent variables with the dependant variable and regression
+plot(log(econ.twitter$followers), log(econ.twitter$citations), pch = 16, col = "#3BB9FF", main = "Twitter: Citations vs. Followers", xlab = "log(Citations)", ylab = "log(Followers)")
+abline(lm(log(econ.twitter$citations) ~ log(econ.twitter$followers)))
+
+plot(I(econ.twitter$years.active^2), log(econ.twitter$citations), pch = 16, col = "#3BB9FF", main = "Twitter: Citations vs. Years Active", xlab = "log(Citations)", ylab = "I(Years Active^2)")
+abline(lm(log(econ.twitter$citations) ~ I(econ.twitter$years.active^2)))
